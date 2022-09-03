@@ -30,13 +30,13 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: "标题", name: "title", widget: "string" }
           - { label: "发布时间", name: "date", widget: "datetime" }
-      - {
-          label: "文章简介",
-          name: "description",
-          widget: "string",
-          required: false,
-        }
-      - { label: "正文", name: "body", widget: "markdown" }
+          - {
+              label: "文章简介",
+              name: "description",
+              widget: "string",
+              required: false,
+            }
+          - { label: "正文", name: "body", widget: "markdown" }
       - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
